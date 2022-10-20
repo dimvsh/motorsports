@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <div className="motto-holder">
 
-        <header>
+        <header id='header'>
           <img alt='logo' className='logo' src={logo}></img>
           <a href="#footer"><button className='contact-us-1'>Contact us</button></a>
         </header>
@@ -264,8 +264,8 @@ function App() {
               <li className='sponsor-pr'><span className='tick tick-on'>✔</span><span className='sponsor-on'>Presentation time at team meetings</span></li>
               <li className='sponsor-pr'><span className='tick tick-on'>✔</span><span className='sponsor-on'>Access to visit team shop</span></li>
               <li className='sponsor-pr'><span className='tick tick-on'>✔</span><span className='sponsor-on'>Access to team recruitment email</span></li>
-              <li className='sponsor-pr'><span className='tick tick-on'>✔</span><span className='sponsor-off'>Company logo on car</span></li>
-              <li className='sponsor-pr'><span className='tick tick-on'>✔</span><span className='sponsor-off'>Team and car footage access</span></li>
+              <li className='sponsor-pr'><span className='tick tick-off'>✔</span><span className='sponsor-off'>Company logo on car</span></li>
+              <li className='sponsor-pr'><span className='tick tick-off'>✔</span><span className='sponsor-off'>Team and car footage access</span></li>
               <li className='sponsor-pr '><span className='tick tick-off'>✔</span><span className='sponsor-off'>Central area on car</span></li>
               <li className='sponsor-pr '><span className='tick tick-off'>✔</span><span className='sponsor-off'>T-shirt logo display</span></li>
             </ul>
@@ -287,7 +287,7 @@ function App() {
 
         <div className='footer-2'>
           <h3 className='logo-title'>Contact us</h3>
-          <h4 className='contact_us'>E. fsae@nu.edu.kz</h4>
+          <h4 className='contact_us'>E. motorsports@nu.edu.kz</h4>
           <h4 className='contact_us'>A. 53, Kabanbay batyr Ave., Nur-Sultan city, 010000, Republic of Kazakhstan</h4>
           <h4 className='contact_us'>P. +7 (701) 874 - 44 - 87</h4>
         </div>
